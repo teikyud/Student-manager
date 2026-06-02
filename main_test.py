@@ -1,9 +1,10 @@
-def say_HI():
-    print("My name is Teikyud")
-
-say_HI()
+def Info(name, age):
+    print(f"Nickname: {name}")
+    print(f"Age: {age}")
 
 def main():
-    print("This is the main function")
+    name = input("Enter your nickname: ")
+    age = input("Enter your age: ")
+    Info(name, age)
 
 main()
